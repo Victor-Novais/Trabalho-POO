@@ -32,7 +32,7 @@ public class SimuladorDeCorrida {
             carro2.mover(velocidadeCarro2);
 
 
-            corrida.mostrarEstadoCorridaComEstrada(distanciaMaxima);
+            corrida.mostrarCorrida(distanciaMaxima);
 
 
             Thread.sleep(1000);
