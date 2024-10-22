@@ -17,7 +17,7 @@ public class Corrida {
         return carro1.getDistancia() >= distanciaTotal || carro2.getDistancia() >= distanciaTotal;
     }
 
-    public void mostrarEstadoCorridaComEstrada(int distanciaMaxima) {
+    public void mostrarCorrida(int distanciaMaxima) {
         System.out.println("\nEstado atual da corrida:");
 
 
